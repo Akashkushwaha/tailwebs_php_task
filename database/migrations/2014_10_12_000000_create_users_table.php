@@ -15,7 +15,6 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('email')->unique();
-            $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->tinyInteger('user_role_type_id')->comment('1=>Teacher, 2=>Student');
             $table->tinyInteger('user_active')->default((1));
