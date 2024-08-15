@@ -17,7 +17,7 @@ use App\Http\Controllers\DashboardController;
 
 Route::get('/', function () {
     return redirect()->route('dashboard');
-});
+})->name('home');
 
 Route::middleware(['guest'])->group(function () {
     Route::get('register', [LoginController::class, 'register'])->name('register');
