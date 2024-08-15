@@ -12,7 +12,7 @@
         <div class="container">
             <div class="row">
                 <div class="col col-4 col-sm-2 text-left">
-                    <img src="https://tailwebs.com/wp-content/uploads/2023/03/Group-222-300x50.png" alt="Tailwebs logo" class="img-fluid">
+                    <a href="{{ url("/") }}"><img src="https://tailwebs.com/wp-content/uploads/2023/03/Group-222-300x50.png" alt="Tailwebs logo" class="img-fluid"></a>
                 </div>
                 @auth
                 <div class="col col-8 col-sm-10 text-right">
